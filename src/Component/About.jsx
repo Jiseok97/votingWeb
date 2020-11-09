@@ -1,5 +1,5 @@
 import React from 'react'
-import Vote from "./Image/Vote.jpg"
+import Vote from "../Image/Vote.jpg"
 import Commom from './Commom';
 
 const About = () => {

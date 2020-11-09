@@ -50,15 +50,22 @@ const Navbar = () => {
                                           className="nav-link" to="/about">
                                               Vote
                                         </NavLink>
-                                    </li>
+                                    </li>                                  
                                     
+
+                                    {/* login_false: 조건 */}
                                     <li className="nav-item">
                                         <NavLink 
                                           activeClassName= 'menu_active'
                                           className="nav-link" to="/contact">
-                                            Contact
+                                            Sign-in/up
                                          </NavLink>
                                     </li>
+
+                                    {/* login_true: 조건 */}
+
+
+
                                 </ul>
                             </div>
                         </nav>

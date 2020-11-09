@@ -1,14 +1,14 @@
 import React from 'react';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import Home from './Home';
-import Contact from './Contact';
-import About from './About';
-import Service from './Services';
-import Navbar from './Navbar';
-import MyCalendar from './MyCalendar';
+import Home from './Component/Home';
+import Contact from './Component/Contact';
+import About from './Component/About';
+import Service from './Component/Services';
+import Navbar from './Component/Navbar';
+import MyCalendar from './Component/MyCalendar';
 import { Switch, Route, Redirect } from "react-router-dom"; 
-import Footer from './Footer'
+import Footer from './Component/Footer'
 import Board from './Board/Board'
 
 

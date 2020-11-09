@@ -17,7 +17,7 @@ const Card = (props) => {
                             make up the bulk of the card's content.
                          </p>
                         <NavLink to="/board" className="btn btn-primary">
-                            Go somewhere
+                            Schedule
                         </NavLink>
                 </div>
                 </div>

@@ -17,9 +17,15 @@ const Commom = (props) => {
                                  Create, Participate the vote by this Web
                             </h4>
                             <div className= "mt3">
+
+                                {/* login_false: 조건 */}
                                 <NavLink to={props.visit} className="btn-get-started">
                                     {props.btname}
                                 </NavLink>
+
+                                {/* login_true: 조건 */}
+
+
                             </div>
                         </div>
                         
@@ -28,6 +34,7 @@ const Commom = (props) => {
                             className= "img-fluid animated"
                             alt={props.alt} />
                         </div>
+                        
                         </div>
                     </div>
                 </div>
