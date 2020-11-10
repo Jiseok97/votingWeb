@@ -10,27 +10,24 @@ import MyCalendar from "./Component/MyCalendar";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Footer from "./Component/Footer";
 import Board from "./Board/Board";
-import Auth from "./Login/Auth";
 
 const App = () => {
-   return (
-      <>
-         <Navbar />
-         <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/service" component={Service} />
-            <Route exact path="/calendar" component={MyCalendar} />
-            <Route exact path="/board" component={Board} />
-            <Route exact path="/contact" component={Contact} />
+  return (
+    <>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/service" component={Service} />
+        <Route exact path="/calendar" component={MyCalendar} />
+        <Route exact path="/board" component={Board} />
+        <Route exact path="/contact" component={Contact} />
 
-            <Route exact path="/auth" component={Auth} />
-
-            <Redirect to="/" />
-         </Switch>
-         <Footer />
-      </>
-   );
+        <Redirect to="/" />
+      </Switch>
+      <Footer />
+    </>
+  );
 };
 
 export default App;

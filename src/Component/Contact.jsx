@@ -5,7 +5,6 @@ const Contact = () => {
     portalID: "",
     portalPassword: "",
   });
-  const [newAccount, setNewAccount] = useState(false);
 
   const InputEvent = (event) => {
     const { name, value } = event.target;
